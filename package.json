@@ -1,6 +1,6 @@
 {
   "name": "has-float",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Checks if a float value exists in an object",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,18 @@
   "dependencies": {
     "lodash": "^4.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncodes/has-float.git"
+  },
+  "keywords": [
+    "float",
+    "object",
+    "check"
+  ],
+  "bugs": {
+    "url": "https://github.com/ncodes/has-float/issues"
+  },
+  "homepage": "https://github.com/ncodes/has-float#readme"
 }

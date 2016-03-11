@@ -6,7 +6,7 @@ var _ = require("lodash");
  * @param  {object}  obj json object or list of json objects
  * @return {Boolean}     true if a float value is found
  */
-module.exports = hasFloatValue(obj) {
+module.exports = function (obj) {
 
 	// expect only json object
 	if (!_.isPlainObject(obj)) return new Error("expected json object")
